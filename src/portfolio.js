@@ -23,9 +23,9 @@ const greeting = {
   username: "Yevhenii Rybalov",
   title: "Hi all, I'm Yevhenii",
   subTitle: emoji(
-    "As the world becomes increasingly interconnected, staying ahead of technology is paramount in remaining competitive. It’s no surprise that mobile app development has emerged, as one of the most sort after career paths in tech today. Fortunately, I’m a developer who specialises in helping businesses create cutting-edge Android and iOS apps to stay ahead of the competition. With over ten years of experience crafting interactive experiences for a wide variety of industries, clients can trust me to design beautiful and efficient solutions that meet their needs and stand out among the crowd. From concepting through launch, my team offers 360 degree service – perfect for entrepreneurs looking to bring their dream idea to life."),
+    "As the world becomes increasingly interconnected, staying ahead of technology is paramount in remaining competitive. It’s no surprise that mobile app development has emerged, as one of the most sort after career paths in tech today. Fortunately, I’m a developer who specialises in helping businesses create cutting-edge Android and iOS apps to stay ahead of the competition. With over ten years of experience crafting interactive experiences for a wide variety of industries, clients can trust me to design beautiful and efficient solutions that meet their needs and stand out among the crowd. From concepting through launch, i offer 360 degree service – perfect for entrepreneurs looking to bring their dream idea to life."),
   resumeLink:
-    "https://drive.google.com/file/d/1pD5vVxZo50LeJELvpd-7QzM9QsMjO0gv/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1UbWyF_Nv0KA1NYT7n7Ukkh8enJmRQJIp/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -33,7 +33,6 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/mobilespider",
-  linkedin: "https://www.linkedin.com/in/dalibor-ristic-118a911a9/",
   gmail: "yevheniirybalov90@gmail.com",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
@@ -115,10 +114,10 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Technical College of the National University (Lvivska Politeknika) ",
+      schoolName: "National University Lviv",
       logo: require("./assets/images/university.jpeg"),
-      subHeader: "Bachelor's Degree of Computer Science",
-      duration: "2012 - 2018",
+      subHeader: "Study Computer Science",
+      duration: "2021 - present",
       desc: "",
       descBullets: []
     }
@@ -168,41 +167,25 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Miloščić doo",
-      companylogo: require("./assets/images/miloscicLogo.png"),
-      date: "Jan 2009 – Jan 2012",
-      desc: "",
-      descBullets: [
-      ]
+      role: "Mobile Developer",
+      company: "CyberCraft",
+      companylogo: require("./assets/images/cyberLogo.png"),
+      date: "March 2021 – May 2021",
+      desc: ""
     },
     {
-      role: "Mobile Application Developer",
-      company: "Nuom.co.uk",
-      companylogo: require("./assets/images/nuomLogo.png"),
-      date: "April 2021 – Oct 2021",
-      desc: "https://www.nuom.co.uk/"
+      role: "Mobile Developer",
+      company: "Skelia",
+      companylogo: require("./assets/images/skeliaLogo.png"),
+      date: "June 2021 – Sep 2022",
+      desc: ""
     },
     {
-      role: "Mobile Application Developer",
-      company: "Helloreport.co.uk",
-      companylogo: require("./assets/images/helloreportLogo.png"),
-      date: "May 2021 – Sep 2022",
-      desc: "https://helloreport.co.uk/"
-    },
-    {
-      role: "Senior Mobile Application Developer",
-      company: "Digital Card Solutions B.V",
-      companylogo: require("./assets/images/dcsLogo.png"),
-      date: "Jan 2022 – Nov 2022",
-      desc: "https://www.digitalcardsolutions.nl/"
-    },
-    {
-      role: "Android Application Developer",
-      company: "velocitydatasystems, LLC",
-      companylogo: require("./assets/images/velocityLogo.png"),
-      date: "Dec 2022 – Present",
-      desc: "http://velocitydatasystems.com/"
+      role: "Mobile Developer",
+      company: "TrendLine Global",
+      companylogo: require("./assets/images/trendLogo.png"),
+      date: "October 2021 – Present",
+      desc: ""
     }
   ]
 };
@@ -257,25 +240,6 @@ const bigProjects = {
         {
           name: "Playstore",
           url: "https://play.google.com/store/apps/details?id=app.talkitout.android&gl=GB"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/helloLogo.png"),
-      projectName: "Helloreport",
-      projectDesc: "Create professional property inventory reports in minutes and collect tenant signatures online.",
-      footerLink: [
-        {
-          name: "Website",
-          url: "https://helloreport.co.uk/"
-        },
-        {
-          name: "Appstore",
-          url: "https://apps.apple.com/gb/app/helloreport-property-reports/id1570405950"
-        },
-        {
-          name: "Playstore",
-          url: "https://play.google.com/store/apps/details?id=com.helloreport.android&pli=1"
         }
       ]
     },
